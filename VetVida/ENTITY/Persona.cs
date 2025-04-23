@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ENTITY
 {
+
     public abstract class Persona : BaseEntity
     {
         public string Cedula { get; set; }

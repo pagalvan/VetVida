@@ -8,6 +8,15 @@ namespace ENTITY
 {
     public class Propietario : Persona
     {
+        public Propietario() { }
+        public Propietario(string cedula, string nombres, string apellidos, string telefono)
+        {
+            Cedula = cedula;
+            Nombres = nombres;
+            Apellidos = apellidos;
+            Telefono = telefono;
+        }
+
         public override string NombreCompleto()
         {
             return $"Sr: {Nombres} {Apellidos}";
