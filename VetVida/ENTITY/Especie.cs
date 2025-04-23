@@ -8,6 +8,15 @@ namespace ENTITY
 {
     public class Especie : NamedEntity
     {
+        public Especie()
+        {
+
+        }
+        public Especie(int id, string nombre)
+        {
+            this.Id = id;
+            this.Nombre = nombre;
+        }
         public override string ToString()
         {
             return $"{Id};{Nombre}";

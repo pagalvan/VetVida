@@ -23,10 +23,10 @@ namespace BLL
             return repoRaza.Consultar();
         }
 
-        //public List<RazaDto> ConsultarDTO()
-        //{
-        //    return repoRaza.ConsultarDTO();
-        //}
+        public List<RazaDto> ConsultarDTO()
+        {
+            return repoRaza.ConsultarDTO();
+        }
         public string Guardar(Raza entity)
         {
             try

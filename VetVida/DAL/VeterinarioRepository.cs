@@ -42,7 +42,7 @@ namespace DAL
             string[] campos = datos.Split(';');
             Veterinario veterinario = new Veterinario();
             veterinario.Id = int.Parse(campos[0]);
-            veterinario.Cedula = campos[1];
+
             veterinario.Nombres = campos[2];
             veterinario.Apellidos = campos[3];
             veterinario.Telefono = campos[4];

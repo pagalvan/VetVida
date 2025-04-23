@@ -40,6 +40,7 @@
             this.btnlimpiar = new System.Windows.Forms.Button();
             this.btnsalir = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnconsultar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -112,7 +113,7 @@
             // 
             // btnguardar
             // 
-            this.btnguardar.Location = new System.Drawing.Point(123, 341);
+            this.btnguardar.Location = new System.Drawing.Point(45, 341);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(156, 41);
             this.btnguardar.TabIndex = 8;
@@ -122,7 +123,7 @@
             // 
             // btnlimpiar
             // 
-            this.btnlimpiar.Location = new System.Drawing.Point(304, 341);
+            this.btnlimpiar.Location = new System.Drawing.Point(221, 341);
             this.btnlimpiar.Name = "btnlimpiar";
             this.btnlimpiar.Size = new System.Drawing.Size(156, 41);
             this.btnlimpiar.TabIndex = 9;
@@ -149,11 +150,22 @@
             this.panel1.Size = new System.Drawing.Size(800, 37);
             this.panel1.TabIndex = 11;
             // 
+            // btnconsultar
+            // 
+            this.btnconsultar.Location = new System.Drawing.Point(393, 341);
+            this.btnconsultar.Name = "btnconsultar";
+            this.btnconsultar.Size = new System.Drawing.Size(156, 41);
+            this.btnconsultar.TabIndex = 12;
+            this.btnconsultar.Text = "Consultar";
+            this.btnconsultar.UseVisualStyleBackColor = true;
+            this.btnconsultar.Click += new System.EventHandler(this.btnconsultar_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnconsultar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btnlimpiar);
@@ -168,6 +180,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,5 +200,6 @@
         private System.Windows.Forms.Button btnlimpiar;
         private System.Windows.Forms.Button btnsalir;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnconsultar;
     }
 }

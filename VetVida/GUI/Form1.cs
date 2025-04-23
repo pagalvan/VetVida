@@ -45,7 +45,8 @@ namespace GUI
 
         private void historialToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(new Form5());
+            AbrirFormulario(new AsociadosMascotas());
         }
+
     }
 }

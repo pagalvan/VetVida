@@ -11,6 +11,7 @@ namespace ENTITY
         public Propietario Propietario { get; set; }
         public int Edad { get; set; }
         public Raza Raza { get; set; }
+        public Especie Especie { get; set; }
 
         public List<Consulta> HistorialConsultas { get; set; }
 

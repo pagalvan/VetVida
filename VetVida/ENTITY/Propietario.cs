@@ -9,8 +9,9 @@ namespace ENTITY
     public class Propietario : Persona
     {
         public Propietario() { }
-        public Propietario(string cedula, string nombres, string apellidos, string telefono)
+        public Propietario( string cedula, string nombres, string apellidos, string telefono)
         {
+            Id = 0;
             Cedula = cedula;
             Nombres = nombres;
             Apellidos = apellidos;
